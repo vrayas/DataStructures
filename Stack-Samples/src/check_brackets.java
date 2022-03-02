@@ -52,7 +52,11 @@ class check_brackets {
 
             }
         }
+        if(opening_brackets_stack.isEmpty()) {
             System.out.print("Match Brakets!!");
+        }else {
+            System.out.print("Not Match Brakets!!");
+        }
         // Printing answer, write your code here
     }
 }
